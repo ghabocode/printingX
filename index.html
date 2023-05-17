@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRINTING_X</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./src/app.css" />
+    <link rel="icon" href="./img/printer-icon-152-202093.png" />
+  </head>
+  <body class="bg-slate-00">
+    <!-- NAVBAR -->
+    <nav class="relative container mx-auto p-6">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2 font-bold text-2xl cursor-pointer hover:animate-spin">
+          PRINT_X
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden space-x-9 md:flex">
+          <a href="#" class="text-black">Home</a>
+          <a href="./about.html" class="text-black">About</a>
+          <a href="./our-work.html" class="text-black">Our Work</a>
+        </div>
+        <!-- Button -->
+        <a
+          href="#"
+          class="hidden p-3 px-6 pt-2 text-white bg-blue-700 rounded-full baseline hover:bg-slate-400 md:block"
+          >Get Started</a
+        >
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./our-work.html">Our Work</a>
+        </div>
+      </div>
+    </nav>
+    <!--  -->
+    <!-- hero section -->
+    <section id="hero">
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col-reverse items-center px-14 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
+      >
+        <!-- Left item -->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1
+            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left transition-transform hover:-translate-y-3 duration-700"
+          >
+            PRINT_X
+          </h1>
+          <p
+            class="max-w-sm text-center md:text-left transition-transform hover:-translate-x-3 duration-700"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim
+            beatae eveniet illum. Nihil illo exercitationem sapiente expedita ut
+            at ratione, eius magnam quaerat alias repellendus quasi vitae
+            molestiae aliquid voluptatum.
+          </p>
+          <div class="flex gap-5 p-3 px-6 pt-2">
+            <a href="">
+              <img
+                src="./img/twitter.svg"
+                alt=""
+                width="30"
+                class="hover:animate-spin cursor-pointer"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./img/whatsapp.svg"
+                alt=""
+                width="30"
+                class="hover:animate-spin cursor-pointer"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./img/linkedin.svg"
+                alt=""
+                width="30"
+                class="hover:animate-spin cursor-pointer"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./img/youtube.svg"
+                alt=""
+                width="30"
+                class="hover:animate-spin cursor-pointer"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- Image on the left side -->
+        <div class="md:w-1/2">
+          <img
+            class=""
+            src="./img/undraw_printing_invoices_-5-r4r.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!-- HERO SECTION -->
+    <!--  -->
+    <h1 class="text-center font-bold text-3xl">Lorem ipsum dolor sit amet.</h1>
+    <section
+      class="flex flex-col-reverse items-center justify-center gap-10 py-10 px-10 lg:flex-row md:flex-col"
+    >
+      <div class="shadow-lg p-8 animate-bounce delay-700 rounded-lg">
+        <h1 class="font-extrabold text-3xl text-center">100%</h1>
+        <p class="text-center font-bold">3D printing</p>
+      </div>
+      <div class="shadow-lg p-8 animate-bounce rounded-lg">
+        <h1 class="font-extrabold text-3xl text-center">80%</h1>
+        <p class="text-center font-bold">4D printing</p>
+      </div>
+      <div class="shadow-lg p-8 animate-bounce rounded-lg">
+        <h1 class="font-extrabold text-3xl text-center">70%</h1>
+        <p class="text-center font-bold">5D printing</p>
+      </div>
+      <div class="shadow-lg p-8 animate-bounce rounded-lg">
+        <h1 class="font-extrabold text-3xl text-center">60%</h1>
+        <p class="text-center font-bold">6D printing</p>
+      </div>
+    </section>
+    <!--  -->
+    <h1 class="text-center font-bold text-3xl">Lorem ipsum dolor sit amet.</h1>
+
+    <aside
+      class="flex flex-col-reverse items-center justify-center gap-10 py-10 px-10 lg:flex-row md:flex-col"
+    >
+      <div>
+        <h1 class="font-bold text-center text-2xl py-3">Lorem ipsum.</h1>
+        <h3 class="max-w-xl transform transition duration-500 hover:scale-105">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quae
+          quibusdam vitae distinctio sed quos odit voluptatem? Sed, eius numquam
+          assumenda maxime fugit dolor ea corporis? Commodi explicabo reiciendis
+          nihil, magnam eum corporis placeat sapiente ipsum dolorem
+          perspiciatis? Veritatis excepturi quae asperiores harum iste corporis?
+          Corporis fugit libero odit quidem.
+        </h3>
+        <div class="flex gap-5 p-3 px-6 pt-2">
+          <img
+            src="./img/twitter.svg"
+            alt=""
+            width="30"
+            class="hover:animate-spin cursor-pointer"
+          />
+          <img
+            src="./img/whatsapp.svg"
+            alt=""
+            width="30"
+            class="hover:animate-spin cursor-pointer"
+          />
+          <img
+            src="./img/linkedin.svg"
+            alt=""
+            width="30"
+            class="hover:animate-spin cursor-pointer"
+          />
+          <img
+            src="./img/youtube.svg"
+            alt=""
+            width="30"
+            class="hover:animate-spin cursor-pointer"
+          />
+        </div>
+      </div>
+      <img
+        src="./img/undraw_designer_re_5v95.svg"
+        alt=""
+        width="600"
+        class="transform hover:scale-75 transition duration-300"
+      />
+    </aside>
+    <!--  -->
+    <h1 class="text-center font-bold text-3xl">Lorem ipsum dolor sit amet.</h1>
+
+    <aside
+      class="flex flex-col-reverse items-center justify-center gap-10 py-10 px-10 lg:flex-row md:flex-col"
+    >
+      <img
+        src="./img/print-1.jpg"
+        alt=""
+        width="600"
+        class="transform hover:scale-75 transition duration-300 rounded-3xl"
+      />
+      <div>
+        <h1 class="font-bold text-center text-2xl py-3">Lorem ipsum.</h1>
+        <h3 class="max-w-xl transform transition duration-500 hover:scale-105">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quae
+          quibusdam vitae distinctio sed quos odit voluptatem? Sed, eius numquam
+          assumenda maxime fugit dolor ea corporis? Commodi explicabo reiciendis
+          nihil, magnam eum corporis placeat sapiente ipsum dolorem
+          perspiciatis? Veritatis excepturi quae asperiores harum iste corporis?
+          Corporis fugit libero odit quidem.
+        </h3>
+        <div class="flex justify-center md:justify-start mt-5 gap-5">
+          <a
+            href="#"
+            class="p-3 px-6 pt-2 text-white bg-blue-700 rounded-full baseline hover:bg-slate-400 transition-all ease-out duration-300"
+            >Conatct Us</a
+          >
+        </div>
+      </div>
+    </aside>
+    <!--  -->
+    <h1 class="text-center font-bold text-3xl">Lorem ipsum dolor sit amet.</h1>
+    <section
+      class="flex flex-col items-center py-10 px-10 gap-10 lg:flex-row p-8 md:flex-col-reverse"
+    >
+      <!-- card 1 -->
+      <div
+        class="shadow-lg items-center p-9 bg-blue-500 text-white rounded-3xl"
+      >
+        <img
+          src="./img/undraw_designer_mindset_re_2w1k.svg"
+          alt=""
+          width="200"
+          class=""
+        />
+        <div class="text-center">
+          <h1 class="text-2xl font-bold py-3">Lorem ipsum.</h1>
+          <p class="max-w-lg">Lorem ipsum dolor sit amet</p>
+        </div>
+      </div>
+      <!-- card 1 -->
+      <!-- card 2 -->
+      <div class="shadow-lg items-center p-9 rounded-3xl">
+        <img
+          src="./img/undraw_designer_mindset_re_2w1k.svg"
+          alt=""
+          width="200"
+          class=""
+        />
+        <div class="text-center">
+          <h1 class="text-2xl font-bold py-3">Lorem ipsum.</h1>
+          <p class="max-w-lg">Lorem ipsum dolor sit amet</p>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <!-- card 3 -->
+      <div
+        class="shadow-lg items-center p-9 rounded-3xl bg-blue-500 text-white"
+      >
+        <img
+          src="./img/undraw_designer_mindset_re_2w1k.svg"
+          alt=""
+          width="200"
+          class=""
+        />
+        <div class="text-center">
+          <h1 class="text-2xl font-bold py-3">Lorem ipsum.</h1>
+          <p class="max-w-lg">Lorem ipsum dolor sit amet</p>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <!-- card 4 -->
+
+      <div class="shadow-lg items-center p-9 rounded-3xl">
+        <img
+          src="./img/undraw_designer_mindset_re_2w1k.svg"
+          alt=""
+          width="200"
+          class=""
+        />
+        <div class="text-center">
+          <h1 class="text-2xl font-bold py-3">Lorem ipsum.</h1>
+          <p class="max-w-lg">Lorem ipsum dolor sit amet</p>
+        </div>
+      </div>
+      <!-- card 3 -->
+    </section>
+    <!--  -->
+    <aside
+      class="flex flex-col-reverse items-center justify-center gap-10 py-10 px-10 lg:flex-row md:flex-col"
+    >
+      <div>
+        <h1 class="font-bold text-center text-2xl py-3">Lorem ipsum.</h1>
+        <h3 class="max-w-xl transform transition duration-500 hover:scale-105">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quae
+          quibusdam vitae distinctio sed quos odit voluptatem? Sed, eius numquam
+          assumenda maxime fugit dolor ea corporis? Commodi explicabo reiciendis
+          nihil, magnam eum corporis placeat sapiente ipsum dolorem
+          perspiciatis? Veritatis excepturi quae asperiores harum iste corporis?
+          Corporis fugit libero odit quidem.
+        </h3>
+        <div class="flex justify-center md:justify-start mt-5 gap-5">
+          <a
+            href="#"
+            class="p-3 px-6 pt-2 text-white bg-blue-700 rounded-full baseline hover:bg-slate-400 transition-all ease-out duration-300"
+            >Conatct Us</a
+          >
+        </div>
+      </div>
+      <img
+        src="./img/print-2.jpg"
+        alt=""
+        width="600"
+        class="transform hover:scale-75 transition duration-300"
+      />
+    </aside>
+    <!--  -->
+    <footer class="bg-blue-700 py-5 text-white">
+      <div>
+        <div class="pt-2 font-bold text-2xl cursor-pointer">PRINT_X</div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quia
+          libero blanditiis autem aliquam numquam maxime praesentium aspernatur?
+        </p>
+      </div>
+      <div>
+        <h2 class="hover:bg-slate-400">Employer</h2>
+        <span class="hover:bg-slate-400">About Us</span>
+        <span class="hover:bg-slate-400">Careers</span>
+        <span class="hover:bg-slate-400">Blog</span>
+      </div>
+      <div>
+        <h2>Find Vacancy Based On</h2>
+        <span class="hover:bg-slate-400">Help Center</span>
+        <span class="hover:bg-slate-400">Job Location</span>
+        <span class="hover:bg-slate-400">Company Name</span>
+      </div>
+      <div>
+        <h2>Address</h2>
+        <span>hello@jobbb.com</span>
+        <span
+          >JL. Setiabudhi No. 193 Sukasari, Bandung West Java, Indonesia</span
+        >
+      </div>
+    </footer>
+    <!--  -->
+    <script src="./index.js"></script>
+  </body>
+</html>

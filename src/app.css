@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*  */
+/* body {
+  background-image: url("../img/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 90% -25%;
+} */
+/* Hamburger Menu */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+/* FOOTER */
+
+footer {
+  background: #ffffff;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+footer p {
+  color: var(--text-gray);
+  font-size: 0.8rem;
+}
+
+footer h2 {
+  font-size: 1.02rem;
+  margin-bottom: 0.8rem;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  max-width: 400px;
+}
+footer span {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+footer span:hover {
+  color: var(--orange);
+}
+/*FOOTER  */
+/* OUR CATEGORIES */
+
+/* categories */
+.categories {
+  padding: 4rem 2rem;
+}
+.categories h2,
+h4 {
+  text-align: center;
+}
+.categories h4 {
+  font-weight: 500;
+}
+
+.categories h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.categories .categories-boxs {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.categories .box {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  border-radius: 23px;
+  gap: 2rem;
+  width: 300px;
+  min-height: 130px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+.categories .active-box {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+.categories .active-box p {
+  color: #ffffff;
+}
+.box p {
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 0.7rem;
+}
+.box h3 {
+  font-size: 1.07rem;
+}
+
+.box img {
+  width: 2.2rem;
+}
+
+/* OUR CATEGORIES */

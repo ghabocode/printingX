@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRINTING_X</title>
+    <link rel="icon" href="./img/printer-icon-152-202093.png" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./src/app.css" />
+  </head>
+  <body class="bg-slate-00">
+    <!-- NAVBAR -->
+    <nav class="relative container mx-auto p-6">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2 font-bold text-2xl cursor-pointer hover:animate-spin">
+          PRINT_X
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden space-x-9 md:block">
+          <a href="./index.html" class="text-black">Home</a>
+          <a href="./our-work.html" class="text-black">Our Work</a>
+        </div>
+        <!-- Button -->
+        <a
+          href="#"
+          class="hidden p-3 px-6 pt-2 text-white bg-blue-700 rounded-full baseline hover:bg-slate-400 md:block"
+          >Get Started</a
+        >
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="./index.html">Home</a>
+          <a href="./our-work.html">Our Work</a>
+        </div>
+      </div>
+    </nav>
+    <!--  -->
+    <!-- hero section -->
+    <section id="hero">
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col-reverse items-center px-14 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
+      >
+        <!-- Left item -->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1
+            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left transition-transform hover:-translate-y-3 duration-700"
+          >
+            ABOUT PRINT_X
+          </h1>
+          <p
+            class="max-w-sm text-center md:text-left transition-transform hover:-translate-x-3 duration-700"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim
+            beatae eveniet illum. Nihil illo exercitationem sapiente expedita ut
+            at ratione, eius magnam quaerat alias repellendus quasi vitae
+            molestiae aliquid voluptatum.
+          </p>
+          <div class="flex gap-5 p-3 px-6 pt-2">
+            <a href="">
+              <img
+                src="./img/twitter.svg"
+                alt=""
+                width="30"
+                class="hover:animate-spin cursor-pointer"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./img/whatsapp.svg"
+                alt=""
+                width="30"
+                class="hover:animate-spin cursor-pointer"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./img/linkedin.svg"
+                alt=""
+                width="30"
+                class="hover:animate-spin cursor-pointer"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./img/youtube.svg"
+                alt=""
+                width="30"
+                class="hover:animate-spin cursor-pointer"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- Image on the left side -->
+        <div class="md:w-1/2">
+          <img
+            class=""
+            src="./img/undraw_designer_mindset_re_2w1k.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!-- HERO SECTION -->
+    <!--  -->
+    <h1 class="text-center font-bold text-3xl">Lorem ipsum dolor sit amet.</h1>
+    <section
+      class="flex flex-col-reverse items-center justify-center gap-10 py-10 px-10 lg:flex-row md:flex-col"
+    >
+      <div class="shadow-lg p-8 animate-bounce rounded-lg">
+        <h1 class="font-extrabold text-3xl text-center">100%</h1>
+        <p class="text-center font-bold">3D printing</p>
+      </div>
+      <div class="shadow-lg p-8 animate-bounce rounded-lg">
+        <h1 class="font-extrabold text-3xl text-center">80%</h1>
+        <p class="text-center font-bold">4D printing</p>
+      </div>
+      <div class="shadow-lg p-8 animate-bounce rounded-lg">
+        <h1 class="font-extrabold text-3xl text-center">70%</h1>
+        <p class="text-center font-bold">5D printing</p>
+      </div>
+      <div class="shadow-lg p-8 animate-bounce rounded-lg">
+        <h1 class="font-extrabold text-3xl text-center">60%</h1>
+        <p class="text-center font-bold">6D printing</p>
+      </div>
+    </section>
+    <!--  -->
+    <section class="categories">
+      <h4>Choose Categories</h4>
+      <h2>Our Categories</h2>
+      <div class="categories-boxs">
+        <div class="box">
+          <img src="./img/cat1.png" />
+          <div>
+            <h3 class="text-white">Lorem, ipsum dolor.</h3>
+            <p class="text-white">100%</p>
+          </div>
+        </div>
+        <div class="box active-box">
+          <img src="./img/cat2.png" class="cursor-pointer" />
+          <div>
+            <h3 class="text-white">Lorem, ipsum dolor.</h3>
+
+            <p>100%</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./img/cat3.png" />
+          <div>
+            <h3 class="text-white">Lorem, ipsum dolor.</h3>
+
+            <p>90%</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./img/cat4.png" />
+          <div>
+            <h3 class="text-white">Lorem, ipsum dolor.</h3>
+
+            <p>80%</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./img/cat5.png" />
+          <div>
+            <h3 class="text-white">Lorem, ipsum dolor.</h3>
+
+            <p>70%</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./img/cat6.png" />
+          <div>
+            <h3 class="text-white">Lorem, ipsum dolor.</h3>
+
+            <p>60%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section id="testimonials">
+      <!-- Container to heading and testm blocks -->
+      <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+        <!-- Heading -->
+        <h2 class="text-4xl font-bold text-center text-blue-700">
+          Testimonials
+        </h2>
+        <!-- Testimonials Container -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+          <!-- Testimonial 1 -->
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3 transition-transform hover:-translate-y-5 duration-700"
+          >
+            <img src="img/avatar-anisha.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold text-blue-700">Jane Doe</h5>
+
+            <p class="text-sm text-gray-500">
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg md:flex md:w-1/3 transition-transform hover:-translate-y-5 duration-700"
+          >
+            <img src="img/avatar-ali.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold text-blue-700">John Doe</h5>
+
+            <p class="text-sm text-gray-500">
+              “We have been able to cancel so many other subscriptions since
+              using Manage. There is no more cross-channel confusion and
+              everyone is much more focused.”
+            </p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg md:flex md:w-1/3 transition-transform hover:-translate-y-5 duration-700"
+          >
+            <img src="img/avatar-richard.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold text-blue-700">John Doe</h5>
+
+            <p class="text-sm text-gray-500">
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </p>
+          </div>
+        </div>
+        <!-- Button -->
+        <div class="my-16">
+          <a
+            href="#"
+            class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section>
+      <!-- Container to heading and testm blocks -->
+      <div class="max-w-6xl px-5 mx-auto mt-5 text-center">
+        <!-- Testimonials Container -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+          <!-- Testimonial 1 -->
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 transition-transform hover:-translate-y-5 duration-700"
+          >
+            <img src="img/avatar-anisha.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold text-blue-600">Jane Doe</h5>
+
+            <p class="text-sm text-gray-500">
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 transition-transform hover:-translate-y-5 duration-700"
+          >
+            <img src="img/avatar-ali.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold text-blue-600">Ali Bravo</h5>
+
+            <p class="text-sm text-gray-500">
+              “We have been able to cancel so many other subscriptions since
+              using Manage. There is no more cross-channel confusion and
+              everyone is much more focused.”
+            </p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg md:flex md:w-1/3 transition-transform hover:-translate-y-5 duration-700"
+          >
+            <img src="img/avatar-richard.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold text-blue-600">Richard Watts</h5>
+
+            <p class="text-sm text-gray-500">
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+
+    <!--  -->
+    <section
+      class="py-10 flex flex-col items-center justify-center gap-10 lg:flex-row md:flex-row-reverse md:flex col-auto"
+    >
+      <div>
+        <img
+          src="./img/undraw_art_museum_-8-or4.svg"
+          alt=""
+          width="450
+        "
+        />
+      </div>
+      <div class="">
+        <h3 class="text-black text-center font-extrabold capitalize">
+          Lorem ipsum.
+        </h3>
+        <p class="p-3 lg:text-center text-black max-w-lg text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cum,
+          molestiae doloribus quae at doloremque libero sequi voluptatum nisi
+          laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Officia doloremque recusandae fuga error nam velit ullam harum
+          mollitia maxime perferendis.
+        </p>
+        <p class="p-3 lg:text-center text-black max-w-lg text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cum,
+          molestiae doloribus quae at doloremque libero sequi voluptatum nisi
+          laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Officia doloremque recusandae fuga error nam velit ullam harum
+          mollitia maxime perferendis.
+        </p>
+      </div>
+    </section>
+    <footer class="bg-blue-700 py-10 text-white">
+      <div>
+        <div class="pt-2 font-bold text-2xl cursor-pointer">PRINT_X</div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quia
+          libero blanditiis autem aliquam numquam maxime praesentium aspernatur?
+        </p>
+      </div>
+      <div>
+        <h2 class="hover:bg-slate-400">Employer</h2>
+        <span class="hover:bg-slate-400">About Us</span>
+        <span class="hover:bg-slate-400">Careers</span>
+        <span class="hover:bg-slate-400">Blog</span>
+      </div>
+      <div>
+        <h2>Find Vacancy Based On</h2>
+        <span class="hover:bg-slate-400">Help Center</span>
+        <span class="hover:bg-slate-400">Job Location</span>
+        <span class="hover:bg-slate-400">Company Name</span>
+      </div>
+      <div>
+        <h2>Address</h2>
+        <span>hello@jobbb.com</span>
+        <span
+          >JL. Setiabudhi No. 193 Sukasari, Bandung West Java, Indonesia</span
+        >
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
